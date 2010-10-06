@@ -1,0 +1,28 @@
+.toolbar
+  %h1#pageTitle
+    Current
+  %span#mapToggler.button
+    Antipodes
+
+#home.panel{:title => "Current", :selected => "true"}
+  #map_canvas{:style => "width:100%; height:350px"}
+  #details
+  %br
+  %h2
+    Coordinates
+  %fieldset
+    .row
+      %label#latitude
+    .row
+      %label#longitude
+  %h2
+    Sunrise / Sunset
+  %fieldset
+    .row
+      %label#sunrise
+    .row
+      %label#sunset
+  %h2
+    Photo
+  #photo
+
